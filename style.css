@@ -5,14 +5,14 @@ body {
 #mail,
 #mobnum,
 #name {
-    width: 100%;
+    width: 50%;
     padding: 10px;
     border: 1px solid black;
     resize: vertical;
 }
 
 hr {
-    color: rgb(0, 0, 0);
+    color: black;
     width: 50%;
 }
 
