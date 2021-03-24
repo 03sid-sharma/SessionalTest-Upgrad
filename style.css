@@ -1,5 +1,6 @@
-body {
+.container {
     background-color: #d0b8f0;
+    border: 3px solid black;
 }
 
 #mail,
@@ -72,18 +73,17 @@ h2 {
 }
 
 @media screen and (max-width: 600px) {
-    .col-30,
-    .col-70,
-    #submit,
-    hr {
-        width: 100%;
-        margin-top: 0;
-    }
-}
-
-@media screen and (max-width: 600px) {
     #list {
         width: 100%;
         margin-top: 100px;
+    }
+    @media screen and (max-width: 600px) {
+        .col-30,
+        .col-70,
+        #submit,
+        hr {
+            width: 100%;
+            margin-top: 0;
+        }
     }
 }
