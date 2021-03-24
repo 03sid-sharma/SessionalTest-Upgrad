@@ -1,0 +1,89 @@
+body {
+    background-color: #d0b8f0;
+}
+
+#mail,
+#mobnum,
+#name {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    resize: vertical;
+}
+
+hr {
+    color: rgb(0, 0, 0);
+    width: 50%;
+}
+
+label {
+    padding: 10px 10px 10px 0px;
+    display: inline-block;
+}
+
+h2 {
+    text-align: center;
+}
+
+#add {
+    background-color: #f0a73a;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+    padding: 10px 10px;
+    border: 1px solid black;
+    float: left;
+    text-decoration: none;
+}
+
+#remove {
+    background-color: #f0a73a;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+    padding: 10px 10px;
+    border: 1px solid black;
+    float: left;
+    text-decoration: none;
+}
+
+.container ul li {
+    list-style: none;
+    width: 80;
+    height: 40px;
+    text-align: left;
+}
+
+.container {
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.col-30 {
+    float: left;
+    width: 20%;
+    margin-top: 5px;
+}
+
+.col-70 {
+    float: left;
+    width: 70%;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .col-30,
+    .col-70,
+    #submit,
+    hr {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #list {
+        width: 100%;
+        margin-top: 100px;
+    }
+}

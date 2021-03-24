@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h2>Details Form</h2>
+    <hr />
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="col-30">
+                    <label for="name">Name :</label>
+                </div>
+                <div class="col-70">
+                    <input type="text" minlength="3" id="name" required placeholder="Enter Name.." />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-30">
+                    <label for="mobnum">Mob. No. :</label>
+                </div>
+                <div class="col-70">
+                    <input type="number" min="10" id="mobnum" required placeholder="Enter Mob. No." />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-30">
+                    <label for="mail">Email ID :</label>
+                </div>
+                <div class="col-70">
+                    <input type="email" id="mail" required placeholder="Enter Email" />
+                </div>
+            </div>
+
+            <div class="row">
+                <a href="#" id="add">Submit</a><br>
+                <a href="#" id="remove">Remove</a><br>
+            </div>
+        </form>
+        <hr />
+        <ul id="list"></ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
